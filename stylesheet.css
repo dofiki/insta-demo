@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 0.6fr 1fr;
+    background-color: beige;
+    color: white;
+}
+
+.phone{
+    background-color: rgb(181, 181, 181);
+    margin-top: 2rem;
+    height: 40rem;
+    border-radius: 10px;
+}
+
+.inside{
+    background-color: rgb(0, 0, 0);
+    margin: 1rem;
+    width: 20rem;
+    height: 38rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+}
+
+.mainTop{
+    background-color: rgb(14, 53, 53);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1.5fr 0.8fr 0.8fr;
+}
+
+.mainBottom{
+    background-color: brown;
+    border-bottom-left-radius:  10px;
+    border-bottom-right-radius:  10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.post{
+    outline: 1px solid black;
+}
+
+.mainTopHead{
+    background-color: rgb(91, 109, 98);
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr;
+}
+
+.mainTopHeadLeft{
+    background-color: rgb(215, 120, 72);
+}
+
+.mainTopBody{
+    background-color: rgb(255, 127, 127);
+}
+
+.mainTopFoot{
+    background-color: rgb(1, 6, 4);
+}
